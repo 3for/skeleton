@@ -24,6 +24,7 @@ The next stage is to get all the dependencies installed. NPM makes this rather e
 This should grab and install all that is required. The next thing to do is to build the final web-ready version of the fledgling dapp. We use webpack for this; it’ll smash everything together and provide you with a single bundle.js for you in the dist path, which our index.html (already there) brings in.
 
 ```
+npm install -g webpack@3.11.0
 webpack
 ```
 
